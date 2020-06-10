@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+}
+.outer {
+  height: 100%;
+}
+
+#left {
+  background: rgba(black, 0.25);
+}
+
+#right {
+  background: rgba(black, 0.25);
+}
+.fullWidthImage {
+  width: 100%;
+  /* max-height: 100%; */
+}
+.gutter {
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.split-horizontal,
+.gutter-horizontal {
+  float: left;
+  height: 100%;
+}
+
+.gutter-horizontal {
+  cursor: ew-resize;
+}
+
+.gutter-vertical {
+  cursor: ns-resize;
+}
