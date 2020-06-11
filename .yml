@@ -1,2 +1,5 @@
 - name: Auto Minify
   uses: nizarmah/auto-minify@v1.6
+  with:
+    commit_message: "Github Action: Auto Minified JS and CSS files"
+    branch: ${{ github.ref }}
