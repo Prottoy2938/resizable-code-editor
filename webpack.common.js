@@ -9,10 +9,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
-      },
-      {
         test: /\.html$/,
         use: ["html-loader"],
       },
@@ -22,7 +18,7 @@ module.exports = {
           loader: "file-loader",
           options: {
             name: "[name].[hash].[ext]",
-            outputPath: "imgs",
+            outputPath: "images",
           },
         },
       },
