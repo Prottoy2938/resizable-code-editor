@@ -1,5 +1,5 @@
 import Split from "split.js";
-
+import "./styles.css";
 const editor = Split(["#left", "#right"], {
   sizes: [33.3, 66.7],
   minSize: 100,
