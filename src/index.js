@@ -17,3 +17,4 @@ Split(["#top-left", "#bottom-left"], {
 console.log("Vector from icons8", "https://icons8.com");
 console.log("Vector from icons8", "https://icons8.com");
 console.log("Vector from icons8", "https://icons8.com");
+console.log("Vector from icons8", "https://icons8.com");
