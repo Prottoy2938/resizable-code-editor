@@ -7,8 +7,8 @@ const editor = Split(["#left", "#right"], {
 
 Split(["#top-left", "#bottom-left"], {
   direction: "vertical",
-  sizes: [33, 33, 33],
-  minSize: 20,
+  sizes: [50, 50],
+  minSize: 100,
 });
 
 //icons8 credit
